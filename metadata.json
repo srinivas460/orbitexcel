@@ -1,0 +1,4270 @@
+{
+	"domainId": 299279,
+	"businessObjectId": 299364,
+	"logicalModelId": null,
+	"reportId": 299441,
+	"reportType": "oper",
+	"processId": null,
+	"reportName": "HugeData_Report",
+	"querySettings": {
+		"doQueryLog": false,
+		"maxRows": 1,
+		"queryTimeout": -1,
+		"autoQuery": false,
+		"disableDistinct": true
+	},
+	"scheduleQuerySettings": {
+		"doQueryLog": false,
+		"maxRows": 1,
+		"queryTimeout": -1,
+		"autoQuery": true,
+		"disableDistinct": true
+	},
+	"startRow": 0,
+	"parameters": [],
+	"selections": [
+		{
+			"reportColumnId": 299442,
+			"categoryId": 299366,
+			"logicalColumnId": 299368,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Ledger Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Ledger Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Ledger Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL0",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Ledger Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Ledger Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Ledger Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Ledger Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL0",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Ledger Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Ledger Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299443,
+			"categoryId": 299366,
+			"logicalColumnId": 299370,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Code Combination Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Code Combination Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Code Combination Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL1",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Code Combination Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Code Combination Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Code Combination Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Code Combination Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL1",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Code Combination Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Code Combination Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299444,
+			"categoryId": 299366,
+			"logicalColumnId": 299372,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Currency Code",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Currency Code"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Currency Code"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL2",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Currency Code"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Currency Code"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Currency Code"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Currency Code"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL2",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Currency Code"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Currency Code"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299445,
+			"categoryId": 299366,
+			"logicalColumnId": 299374,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Name",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Name"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Name"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL3",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Name"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Name"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Period Name"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Name"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL3",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Period Name"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Name"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299446,
+			"categoryId": 299366,
+			"logicalColumnId": 299376,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Actual Flag",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Actual Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Actual Flag"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL4",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Actual Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Actual Flag"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Actual Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Actual Flag"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL4",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": false,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Actual Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Actual Flag"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299447,
+			"categoryId": 299366,
+			"logicalColumnId": 299378,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Last Update Date",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Last Update Date"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Update Date"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "dd/MM/yyyy",
+				"ft": "ATTRIBUTE",
+				"sqlt": "DATE",
+				"sg": true,
+				"datatype": "DATE",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "center",
+				"nnbr": false,
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Date Field",
+				"tc": "COL5",
+				"cs": false,
+				"hdn": false,
+				"cw": 130,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Last Update Date"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Update Date"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 130,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Last Update Date"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Update Date"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "dd/MM/yyyy",
+				"ft": "ATTRIBUTE",
+				"sqlt": "DATE",
+				"sg": true,
+				"datatype": "DATE",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "center",
+				"nnbr": false,
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Date Field",
+				"tc": "COL5",
+				"cs": false,
+				"hdn": false,
+				"cw": 130,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Last Update Date"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Update Date"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299448,
+			"categoryId": 299366,
+			"logicalColumnId": 299380,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Last Updated By",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Last Updated By"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Updated By"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL6",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Last Updated By"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Updated By"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Last Updated By"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Updated By"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL6",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": false,
+				"name": {
+					"localeStringMap": {
+						"en": "Last Updated By"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Last Updated By"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299449,
+			"categoryId": 299366,
+			"logicalColumnId": 299382,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Budget Version Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Budget Version Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Budget Version Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL7",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Budget Version Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Budget Version Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Budget Version Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Budget Version Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL7",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Budget Version Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Budget Version Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299450,
+			"categoryId": 299366,
+			"logicalColumnId": 299384,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Encumbrance Type Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Type Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Type Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL8",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Type Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Type Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Type Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Type Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL8",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Type Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Type Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299451,
+			"categoryId": 299366,
+			"logicalColumnId": 299386,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Translated Flag",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Translated Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Translated Flag"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL9",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Translated Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Translated Flag"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Translated Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Translated Flag"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL9",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Translated Flag"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Translated Flag"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299452,
+			"categoryId": 299366,
+			"logicalColumnId": 299388,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Revaluation Status",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Revaluation Status"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Revaluation Status"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL10",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Revaluation Status"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Revaluation Status"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 1,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Revaluation Status"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Revaluation Status"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL10",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Revaluation Status"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Revaluation Status"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299453,
+			"categoryId": 299366,
+			"logicalColumnId": 299390,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Type",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Type"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Type"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ft": "ATTRIBUTE",
+				"sqlt": "VARCHAR2",
+				"sg": true,
+				"datatype": "STRING",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "String",
+				"tc": "COL11",
+				"cs": true,
+				"hdn": false,
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Type"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Type"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 200,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"description": {
+					"localeStringMap": {
+						"en": "Period Type"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Type"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"ppk": false,
+				"label": "String",
+				"ft": "ATTRIBUTE",
+				"tc": "COL11",
+				"cs": true,
+				"hdn": false,
+				"sqlt": "VARCHAR2",
+				"cw": 200,
+				"pfk": false,
+				"nb": true,
+				"sg": true,
+				"datatype": "STRING",
+				"name": {
+					"localeStringMap": {
+						"en": "Period Type"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Type"
+				},
+				"uidx": false,
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				},
+				"sr": true
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299454,
+			"categoryId": 299366,
+			"logicalColumnId": 299392,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Year",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Year"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Year"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL12",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Year"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Year"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Year"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Year"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL12",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Year"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Year"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299455,
+			"categoryId": 299366,
+			"logicalColumnId": 299394,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Num",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Num"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL13",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Num"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Num"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL13",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Num"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299456,
+			"categoryId": 299366,
+			"logicalColumnId": 299396,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Net Dr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL14",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL14",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299457,
+			"categoryId": 299366,
+			"logicalColumnId": 299398,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Net Cr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL15",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL15",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299458,
+			"categoryId": 299366,
+			"logicalColumnId": 299400,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period To Date Adb",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL16",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL16",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299459,
+			"categoryId": 299366,
+			"logicalColumnId": 299402,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Quarter To Date Dr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL17",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL17",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299460,
+			"categoryId": 299366,
+			"logicalColumnId": 299404,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Quarter To Date Cr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL18",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL18",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299461,
+			"categoryId": 299366,
+			"logicalColumnId": 299406,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Quarter To Date Adb",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL19",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL19",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299462,
+			"categoryId": 299366,
+			"logicalColumnId": 299408,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Year To Date Adb",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Year To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Year To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL20",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Year To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Year To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Year To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Year To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL20",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Year To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Year To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299463,
+			"categoryId": 299366,
+			"logicalColumnId": 299410,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Project To Date Dr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL21",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL21",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299464,
+			"categoryId": 299366,
+			"logicalColumnId": 299412,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Project To Date Cr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL22",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL22",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299465,
+			"categoryId": 299366,
+			"logicalColumnId": 299414,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Project To Date Adb",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL23",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Adb"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL23",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Adb"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Adb"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299466,
+			"categoryId": 299366,
+			"logicalColumnId": 299416,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Begin Balance Dr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL24",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL24",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299467,
+			"categoryId": 299366,
+			"logicalColumnId": 299418,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Begin Balance Cr",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL25",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL25",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299468,
+			"categoryId": 299366,
+			"logicalColumnId": 299420,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Net Dr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL26",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL26",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299469,
+			"categoryId": 299366,
+			"logicalColumnId": 299422,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Period Net Cr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL27",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Period Net Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL27",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Period Net Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Period Net Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299470,
+			"categoryId": 299366,
+			"logicalColumnId": 299424,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Begin Balance Dr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL28",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL28",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299471,
+			"categoryId": 299366,
+			"logicalColumnId": 299426,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Begin Balance Cr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL29",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL29",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Begin Balance Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Begin Balance Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299472,
+			"categoryId": 299366,
+			"logicalColumnId": 299428,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Template Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Template Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Template Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL30",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Template Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Template Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Template Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Template Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL30",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Template Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Template Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299473,
+			"categoryId": 299366,
+			"logicalColumnId": 299430,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Encumbrance Doc Id",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Doc Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Doc Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL31",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Doc Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Doc Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Doc Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Doc Id"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "KEY",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL31",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Doc Id"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Doc Id"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299474,
+			"categoryId": 299366,
+			"logicalColumnId": 299432,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Encumbrance Line Num",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Line Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Line Num"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL32",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Line Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Line Num"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 100,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Encumbrance Line Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Line Num"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "0",
+				"ft": "ATTRIBUTE",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "INTEGER",
+				"uidx": false,
+				"sr": true,
+				"prc": 15,
+				"aln": "left",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Id Field",
+				"tc": "COL32",
+				"cs": false,
+				"hdn": false,
+				"cw": 100,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Encumbrance Line Num"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Encumbrance Line Num"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299475,
+			"categoryId": 299366,
+			"logicalColumnId": 299434,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Quarter To Date Dr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL33",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL33",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299476,
+			"categoryId": 299366,
+			"logicalColumnId": 299436,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Quarter To Date Cr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL34",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL34",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Quarter To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Quarter To Date Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299477,
+			"categoryId": 299366,
+			"logicalColumnId": 299438,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Project To Date Dr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL35",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL35",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Dr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Dr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		},
+		{
+			"reportColumnId": 299478,
+			"categoryId": 299366,
+			"logicalColumnId": 299440,
+			"aggregation": "NONE",
+			"formula": null,
+			"name": "Project To Date Cr Beq",
+			"description": null,
+			"dimension": "ROW",
+			"properties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "NONE",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL36",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"childProperties": {
+				"cw": 150,
+				"aggregation": "NONE"
+			},
+			"previousProperties": {
+				"description": {
+					"localeStringMap": {
+						"en": "Project To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr Beq"
+				},
+				"scale": 0,
+				"aggregation": "SUM",
+				"fmt": "####,##,##0",
+				"ft": "FACT",
+				"sqlt": "NUMBER",
+				"sg": true,
+				"datatype": "DECIMAL",
+				"uidx": false,
+				"sr": true,
+				"prc": 0,
+				"aln": "right",
+				"tct": "COLUMN",
+				"ai": false,
+				"ppk": false,
+				"label": "Number Field",
+				"tc": "COL36",
+				"cs": false,
+				"hdn": false,
+				"cw": 150,
+				"pfk": false,
+				"nb": true,
+				"name": {
+					"localeStringMap": {
+						"en": "Project To Date Cr Beq"
+					},
+					"locales": [
+						"en"
+					],
+					"defaultLocaleString": "Project To Date Cr Beq"
+				},
+				"font": {
+					"family": "Roboto",
+					"colorHexcode": "#000000",
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"underline": false
+				}
+			},
+			"categoryName": null
+		}
+	],
+	"constraints": [],
+	"orders": [],
+	"parameterValues": {},
+	"extraParams": {
+		"ORBIT_REPORT_PARAMS": {},
+		"LM_PRE_EXECUTE_BLOCK": null
+	},
+	"queryGenerator": "basic",
+	"outputType": "B",
+	"dashboardPart": false,
+	"scheduledRun": true,
+	"publisherBand": null,
+	"scriptBean": null,
+	"mode": "JSON",
+	"constraintGroup": null,
+	"properties": {
+		"cfrules": [],
+		"querySettings": {
+			"doQueryLog": false,
+			"maxRows": 1,
+			"queryTimeout": -1,
+			"autoQuery": false,
+			"disableDistinct": true
+		},
+		"sbeans": null,
+		"report_config_type": "table",
+		"scheduleQuerySettings": {
+			"doQueryLog": false,
+			"maxRows": 1,
+			"queryTimeout": -1,
+			"autoQuery": true,
+			"disableDistinct": true
+		},
+		"description": {
+			"localeStringMap": {
+				"en": ""
+			},
+			"locales": [
+				"en"
+			],
+			"defaultLocaleString": ""
+		},
+		"report_result_type": "table",
+		"widgetProperties": {},
+		"report_type": "oper",
+		"bands": null,
+		"PRE_EXECUTE_BLOCK": null,
+		"drilldowns": [],
+		"name": {
+			"localeStringMap": {
+				"en": "HugeData_Report"
+			},
+			"locales": [
+				"en"
+			],
+			"defaultLocaleString": "HugeData_Report"
+		},
+		"constraintGroup": null,
+		"qen": null,
+		"user_info_settings": {
+			"DEFAULT_PAGE": "Home",
+			"DECIMAL_SEPARATOR": ".",
+			"LOCALE": "en",
+			"NO_OF_DIGITS": "2",
+			"DATE_FORMAT": "yyyy/MM/dd",
+			"THOUSAND_SEPARATOR": ",",
+			"THEME": "Classic",
+			"NAVIGATION": "Left"
+		}
+	},
+	"applyRowLimit": true,
+	"baseReportId": null
+}

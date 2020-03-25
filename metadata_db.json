@@ -1,0 +1,15 @@
+[{
+  "dbname":"Oracle Db",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps",
+  "queries":[
+    {
+      "query":"select * from gl_balances where rownum <=10000",
+      "type":"query",
+      "excel":"file_name1"
+      
+    }
+    ]
+}]

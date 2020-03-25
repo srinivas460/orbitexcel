@@ -1,0 +1,25 @@
+[{
+  "dbname":"Oracle Db",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps"
+},{
+  "dbname":"Oracle Db2",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps"
+},{
+  "dbname":"Oracle Db3",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps"
+},{
+  "dbname":"Oracle Db4",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps"
+}]

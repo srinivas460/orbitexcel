@@ -1,0 +1,29 @@
+[{
+  "dbname":"Oracle Db",
+  "driver":"oracle.jdbc.OracleDriver",
+  "url":"jdbc:oracle:thin:@iorb5.orbit8.com:1521:EBSDB",
+  "username":"apps",
+  "password":"apps",
+  "queries":[
+    {
+      "query":"select * from gl_balances where rownum <=1000000",
+      "type":"query",
+      "excel":"file_name1"
+      
+    }
+    ]
+},{
+  "dbname":"Mysql Db",
+  "driver":"com.mysql.jdbc.Driver",
+  "url":"jdbc:mysql://localhost:3306/orbitdb",
+  "username":"root",
+  "password":"root",
+  "queries":[
+    {
+      "query":"SELECT * FROM orbitdb.orb_user",
+      "type":"query",
+      "excel":"file_name2"
+      
+    }
+    ]
+}]
